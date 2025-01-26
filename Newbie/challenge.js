@@ -5,12 +5,12 @@
 //      reverseString("hello"); // "olleh"
 
 // Solution 1
-const reverseString = () => {
-  const a = "hello"; //Declare a string variable.
-  const b = a.split("").reverse().join(""); //Declare a variable to store the b string.
-  console.log("Reversed String: ", b); //Print the reversed string. "Output: Reversed String: olleh"
-};
-return reverseString();
+// const reverseString = () => {
+//   const a = "hello"; Declare a string variable.
+//   const b = a.split("").reverse().join(""); Declare a variable to store the b string.
+//   console.log("Reversed String: ", b); Print the reversed string.
+// };
+// return reverseString(); "Output: Reversed String: olleh"
 
 // 2. Check for Palindrome
 //    Description: Write a function to check if a string is a palindrome (it reads the same forwards and backwards).
@@ -18,6 +18,24 @@ return reverseString();
 //    Expected Output:
 //      isPalindrome("madam"); // true
 //      isPalindrome("hello"); // false
+// Solution 2
+// const isPalindrome = () => {
+//   const a = "madam"; Declare a string variable.
+//   const b = "hello"; Declare a string variable.
+//   const c = a.split("").reverse().join(""); Reverse the string.
+//   const d = b.split("").reverse().join(""); Reverse the string.
+//   if (a === c) { use if statement to check if the string is a palindrome.
+//     console.log("True");
+//   } else {
+//     console.log("False");
+//   }
+//   if (b === d) { use if statement to check if the string is a palindrome.
+//     console.log("True");
+//   } else {
+//     console.log("False");
+//   }
+// };
+// return isPalindrome(); "Output: True, False"
 
 // 3. Count Occurrences of a Character
 //    Description: Write a function that counts how many times a character appears in a string.
