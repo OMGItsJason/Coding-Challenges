@@ -4,6 +4,14 @@
 //    Expected Output:
 //      reverseString("hello"); // "olleh"
 
+// Solution 1
+const reverseString = () => {
+  const a = "hello"; //Declare a string variable.
+  const b = a.split("").reverse().join(""); //Declare a variable to store the b string.
+  console.log("Reversed String: ", b); //Print the reversed string. "Output: Reversed String: olleh"
+};
+return reverseString();
+
 // 2. Check for Palindrome
 //    Description: Write a function to check if a string is a palindrome (it reads the same forwards and backwards).
 //    Tips: Consider the case where the string may include spaces or punctuation.
